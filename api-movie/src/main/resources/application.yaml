@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: api-movie
+  config:
+    import: configserver:http://localhost:8888
+
